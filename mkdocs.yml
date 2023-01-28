@@ -1,0 +1,41 @@
+---
+site_name: "mkdocs-template"
+docs_dir: docs
+theme:
+  name: material
+  language: "ja"
+  palette:
+    - scheme: "default"
+      primary: "indigo"
+      accent: "pink"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: "slate"
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.section
+    - navigation.top
+nav:
+  - "overview":
+      - index.md
+extra_css:
+  - "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  - "stylesheets/style.css"
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+
+plugins:
+  search:
+    lang: "ja"
+extra:
+  generator: false

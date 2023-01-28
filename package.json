@@ -1,0 +1,23 @@
+{
+  "name": "mkdocs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunsuke6/mkdocs-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shunsuke6/mkdocs-template/issues"
+  },
+  "homepage": "https://shunsuke6.github.io/mkdocs-template/",
+  "devDependencies": {
+    "markdownlint": "^0.27.0",
+    "markdownlint-cli": "^0.33.0"
+  }
+}
