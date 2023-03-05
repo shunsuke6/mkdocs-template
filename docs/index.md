@@ -1,4 +1,3 @@
-
 # mkdocs-template
 
 This repository is my template for the use of mkdocs.
@@ -17,7 +16,7 @@ site_name: {Arbitrary name}
 .
 theme:
   name: material
-  language: "{Your local language}" 
+  language: "{Your local language}"
 .
 plugins:
   search:
@@ -29,7 +28,7 @@ Then change nav in medocs.yml.
 
 Then you can git push and go to the `https://{github id}.github.io/{repository name}/`
 
-exsample -> [https://shunsuke6.github.io/mkdocs-template/](https://shunsuke6.github.io/mkdocs-template/)
+example -> [https://shunsuke6.github.io/mkdocs-template/](https://shunsuke6.github.io/mkdocs-template/)
 
 ## locally
 

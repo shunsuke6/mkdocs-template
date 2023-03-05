@@ -23,8 +23,8 @@ theme:
 nav:
   - "overview":
       - index.md
-  - "exsample":
-      - exsample/exsample.md
+  - "example":
+      - example/example.md
 extra_css:
   - "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
   - "stylesheets/style.css"
