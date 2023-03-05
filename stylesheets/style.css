@@ -1,0 +1,16 @@
+.md-typeset h1 {
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #87cefa;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px dotted #888;
+}
+.md-typeset h2:before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f138";
+  margin-right: 5px;
+}
